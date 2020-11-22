@@ -13,9 +13,7 @@ hr.divided{
 .San_font{
 	font-family: sanche;
 }
-/*.about-p{
-	color:#4f4848;
-}*/
+
 
 
 .about-p{
@@ -23,10 +21,31 @@ hr.divided{
 	margin:0 70px;
 }
 
+.about-p{
+    text-align: justify;
+    margin:0 70px;
+}
 hr.divid{
 	margin-top: 40px;
 	max-width: 70rem;
 	border-width: .1rem;
+}
+
+hr.divide{
+    margin-top: 40px;
+    max-width: 70rem;
+    border-width: .1rem;
+    border-color: #71a7ac;
+}
+
+
+
+.carousel_text{
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    right: 300px;
+    color: white;
 }
 
 
