@@ -5,3 +5,54 @@
 	display: block;
 	margin-top: -15px;
 }
+.banner-caption{
+	position: absolute;
+	top: 30%;
+	left: 32%;
+	color: black;
+}
+#caption_carousel1{
+	font-size: 5em;
+}
+#caption_carousel2{
+	font-size: 2em;
+}
+#explore_button_banner1, #explore_button_banner2, #explore_button_banner3{
+	font-size: 1.3em;
+	border-radius: 40px;
+	padding: 10px 30px;
+}
+.Card_Caption{
+	position: absolute;
+	top: 40%;
+	width: 90%;
+	color: blue;
+}
+#hikingpackage{
+	object-fit: cover;
+}
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+
+}
+.Indicator_position{
+	position: absolute;
+	bottom: -50px;
+}
+.Indicator_style li{
+ 	width: 10px;
+  	height: 10px;
+  	border-radius: 100%;
+}
+.Achievement{
+	background-color: black;
+	padding: 10px;
+	color: white;
+	margin: 5px 0;
+}
+.footer{
+	background-color: #17a2b8;
+	color: white;
+}
