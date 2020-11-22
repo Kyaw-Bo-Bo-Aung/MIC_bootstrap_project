@@ -5,19 +5,21 @@
 	display: block;
 	margin-top: -15px;
 }
-.banner-caption{
+.banner_caption{
 	position: absolute;
 	top: 30%;
-	left: 32%;
+	left: 16%;
 	color: black;
 }
 #caption_carousel1{
 	font-size: 5em;
+	color: #17a2b8;
 }
 #caption_carousel2{
 	font-size: 2em;
+	color: #17a2b8;
 }
-#explore_button_banner1, #explore_button_banner2, #explore_button_banner3{
+#explore_button_banner1{
 	font-size: 1.3em;
 	border-radius: 40px;
 	padding: 10px 30px;
@@ -27,6 +29,7 @@
 	top: 40%;
 	width: 90%;
 	color: blue;
+	font-size: 3vw;
 }
 #hikingpackage{
 	object-fit: cover;
@@ -56,3 +59,144 @@
 	background-color: #17a2b8;
 	color: white;
 }
+.hr{
+	border: 1px solid #17a2b8;
+	width: 30%;
+}
+/**{
+	border: 1px solid red;
+}*/
+.User_Logo_Capt{
+	margin-left: -27px;
+}
+.User_Logo_Head{
+	margin-bottom: -5px;
+
+}
+.User_Card{
+	/*border: 1px solid grey;*/
+	box-shadow: 1px 1px 1px grey;
+}
+.User_Card_Header,.User_Card_Footer{
+	padding-bottom: 0;
+	margin: 0;
+}
+.carousel-control-prev-icon_Manual,
+.carousel-control-next-icon_Manual {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon_Manual:after
+{
+  content: '>';
+  font-size: 30px;
+  color: red;
+}
+
+.carousel-control-prev-icon_Manual:after {
+  content: '<';
+  font-size: 30px;
+  color: red;
+}
+.carousel-control-prev-icon_Manual:hover {
+  background-color: grey;
+}
+.carousel-control-next-icon_Manual:hover {
+  background-color: grey;
+}
+.hashtag{
+	border: 1px solid grey;
+	border-radius: 50px;
+	background-color: #e9ecef;
+	cursor: pointer;
+}
+.hashtag:hover{
+	background-color: gray;
+	color: white;
+}
+
+
+/*media query*/
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.banner_caption{
+	position: absolute;
+	top: 30%;
+	left: 16%;
+	color: black;
+}
+#caption_carousel1{
+	font-size: 6vw;
+	color: #17a2b8;
+}
+#caption_carousel2{
+	font-size: 3vw;
+	color: #17a2b8;
+}
+#explore_button_banner1{
+	font-size: 1.3em;
+	border-radius: 40px;
+	padding: 10px 30px;
+}
+.Card_Caption{
+	position: absolute;
+	top: 40%;
+	width: 90%;
+	color: blue;
+}
+#brandtitle{
+	font-size: 1.8vw;
+}
+#navh1{
+	font-size: 3.5vw;
+}
+}
+
+/*lg screen*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.banner_caption{
+	position: absolute;
+	top: 30%;
+	left: 16%;
+	color: black;
+}
+#caption_carousel1{
+	font-size: 7vw;
+	color: #17a2b8;
+}
+#caption_carousel2{
+	font-size: 3vw;
+	color: #17a2b8;
+}
+#explore_button_banner1{
+	font-size: 1.3em;
+	border-radius: 40px;
+	padding: 10px 30px;
+}
+.Card_Caption{
+	position: absolute;
+	top: 40%;
+	width: 90%;
+	color: blue;
+}
+}
+/*small devices*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.User_Logo_Head{
+	font-size: 4vw;
+}
+}
+/*extra small devices*/
+@media (max-width: 575.98px) {
+.User_Logo_Head{
+	font-size: 5vw;
+}
+}
+
+
