@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+h2{
+  text-align:center;
+  padding: 20px;
+}
+=======
 
 @font-face{
 	font-family: sanche;
@@ -31,6 +37,7 @@ hr.divid{
 
 
 
+>>>>>>> dec11b418a20ce6b01bfa498dead9b13eb365ff0
 /* Slider */
 
 .slick-slide {
