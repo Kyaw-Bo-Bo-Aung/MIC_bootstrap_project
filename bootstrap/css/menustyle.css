@@ -1,3 +1,7 @@
+@font-face{
+	font-family: sanche;
+	src:url(../../Sanchezfont/Sanchez-Regular.ttf);
+}
 #Brand{
 	margin-top: -5px;
 }
@@ -13,11 +17,13 @@
 }
 #caption_carousel1{
 	font-size: 5em;
-	color: #17a2b8;
+	color: white;
+	text-shadow: 2px 2px 2px gray;
 }
 #caption_carousel2{
 	font-size: 2em;
-	color: #17a2b8;
+	color: white;
+	text-shadow: 2px 2px 2px gray;
 }
 #explore_button_banner1{
 	font-size: 1.3em;
@@ -56,7 +62,7 @@
 	margin: 5px 0;
 }
 .footer{
-	background-color: #17a2b8;
+	background-color: black;
 	color: white;
 }
 .hr{
@@ -68,9 +74,10 @@
 }*/
 .User_Logo_Capt{
 	margin-left: -27px;
+	/*margin-bottom: -15px;*/
 }
 .User_Logo_Head{
-	margin-bottom: -5px;
+	/*margin-bottom: -10px;*/
 
 }
 .User_Card{
@@ -120,6 +127,25 @@
 	background-color: gray;
 	color: white;
 }
+a{
+	text-decoration: none;
+}
+.Background{
+	background-image: url();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*media query*/
