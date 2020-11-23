@@ -4,6 +4,7 @@
 	<title>Travel and Tour Agency</title>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/menustyle.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/custom.css">
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-light bg-primary">
@@ -49,9 +50,11 @@
             consequat. Duis aute irure.
         </div>
 
+   <div class="jumbotron">
     <div class="container">
        	<div class="row my-5">
        		<div class="col-lg-6">
+       			<h4 class="text-center">Beach View</h4>
        			It was not yet a trading center during the time of Myanmar Kings. But, it was well-known as a site of religiously significance along with the presence of Shwedagaon Pagoda, the landmark of Yangon. As British government (1824~1885) used it as the administrative center, this venue became a major and strategic sea-port. And recorded as the most beautiful city in Southeast Asia!Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
        			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
        			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -65,8 +68,11 @@
        		</div>
        	 	
         </div>
-    
+     </div>
+    </div>
  
+        
+    <div class="container">
         <div class="row">
             
             <div class="col-lg-6 my-3 ">
@@ -74,6 +80,7 @@
        		</div>
 
             <div class="col-lg-6 my-3 ">
+            	<h4 class="text-center">Sunset View</h4>
        			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
        			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
        			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -87,11 +94,18 @@
        			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
        		</div>
         </div>
-       		
+    </div>   		
     
+        
+
+    <div class="jumbotron">
+      <div class="container">
+    		
+    	
         <div class="row">
            
             <div class="col-lg-6 my-3 ">
+            	<h4 class="text-center">Fishing Boats</h4>
        			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
        			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
        			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -110,7 +124,11 @@
        			<img src="image/25.jpg" width="650px;" height="400px;" class="rounded">
        		</div>
         </div>
+       </div>
+    </div>
 
+
+    <div class="container">
          <div class="row">
             
             <div class="col-lg-6 my-3 ">
@@ -118,6 +136,7 @@
        		</div>
 
             <div class="col-lg-6 my-3 ">
+            	<h4 class="text-center">Snorkeling</h4>
        			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
        			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
        			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -135,6 +154,25 @@
        
     </div> 	
 
+   
+   
+
+<div class="container">
+  <h2>Available Hotels In Ngapali</h2>
+   <a href="https://www.booking.com/"><section class="customer-logos slider">
+      <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+   </section></a>
+</div>
+
+
+
 
     <footer>
 		<div class="row py-2 bg-dark ">
@@ -147,6 +185,33 @@
 
 	<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+	</script>
 
 </body>
 </html>
+
