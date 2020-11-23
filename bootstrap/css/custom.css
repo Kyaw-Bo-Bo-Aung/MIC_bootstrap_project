@@ -1,7 +1,43 @@
+<<<<<<< HEAD
 h2{
   text-align:center;
   padding: 20px;
 }
+=======
+
+@font-face{
+	font-family: sanche;
+	src:url(../../Sanchezfont/Sanchez-Regular.ttf);
+}
+
+
+hr.divided{
+	max-width: 6rem;
+	border-color: #71a7ac;
+	border-width: .2rem;
+}
+.San_font{
+	font-family: sanche;
+}
+/*.about-p{
+	color:#4f4848;
+}*/
+
+
+.about-p{
+	text-align: justify;
+	margin:0 70px;
+}
+
+hr.divid{
+	margin-top: 40px;
+	max-width: 70rem;
+	border-width: .1rem;
+}
+
+
+
+>>>>>>> dec11b418a20ce6b01bfa498dead9b13eb365ff0
 /* Slider */
 
 .slick-slide {
