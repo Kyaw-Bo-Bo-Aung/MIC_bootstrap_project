@@ -9,12 +9,13 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-light bg-primary">
-		<img src="" height="60" width="70" class="ml-5">
+		<img src="images/newlogo.png" height="60" width="70" class="ml-5">
 			<div id="Brand" class="mr-auto pl-3 mb-1">
-				<a href="" class="navbar-brand"><h2>Code-Eat-Repeat</h2></a>
+				<a href="" class="navbar-brand"><h2 id="navh1">Code-Eat-Repeat</h2></a>
 				<span id="brandtitle">Travel & Tour Agency</span>
-			</div>	
-		<div class="collapse navbar-collapse mr-5">
+			</div>
+			<button data-target="#navul" data-toggle="collapse" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>	
+		<div class="collapse navbar-collapse mr-5" id="navul">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a href="" class="nav-link">Home</a></li>
 				<li class="nav-item"><a href="" class="nav-link">Package</a></li>
@@ -135,13 +136,19 @@
 
 	<!-- Footer -->
 
-	<footer>
-		<div class="row py-2 bg-dark my-5">
-			<div class="col-md-7 col-12 text-white text-sm-center"><p class="float-md-left mx-4">Copyright 2020 &copy; Code-Eat-Repeat Travel&Tour Agency</p></div>
-			<div class="col-md-5 col-12 text-white text-sm-center"><p class="float-md-right mx-4">Created by <b>Code-Eat-Repeat Team</b></p></div>
+	<div class="container-fluid footer">
+		<div class="row pt-3">
+			<div class="col-md-7 col-12">
+				<p class="float-md-left text-center">Copyright 2020 &copy; Code-Eat-Repeat Travel&Tour Agency</p>
+			</div>
+			<div class="col-md-5 col-12">
+				<p class="float-md-right text-center">Created by <b>Code-Eat-Repeat Team</b></p>
+			</div>
 		</div>
+	</div>
 		
-	</footer>
+	<!-- End Footer -->
+		
 
 
 	<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
