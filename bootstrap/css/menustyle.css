@@ -16,17 +16,17 @@
 	color: black;
 }
 #caption_carousel1{
-	font-size: 5em;
+	font-size: 4em;
 	color: white;
 	text-shadow: 2px 2px 2px gray;
 }
 #caption_carousel2{
-	font-size: 2em;
+	font-size: 1.8em;
 	color: white;
 	text-shadow: 2px 2px 2px gray;
 }
 #explore_button_banner1{
-	font-size: 1.3em;
+	font-size: 1.1em;
 	border-radius: 40px;
 	padding: 10px 30px;
 }
@@ -37,8 +37,12 @@
 	color: blue;
 	font-size: 3vw;
 }
+.img_background{
+	background-color: black;
+}
 #hikingpackage{
 	object-fit: cover;
+	opacity: 0.5;
 }
 .carousel-indicators li {
   width: 15px;
@@ -69,15 +73,13 @@
 	border: 1px solid #17a2b8;
 	width: 30%;
 }
-/**{
-	border: 1px solid red;
-}*/
+/
 .User_Logo_Capt{
 	margin-left: -27px;
 	/*margin-bottom: -15px;*/
 }
 .User_Logo_Head{
-	/*margin-bottom: -10px;*/
+	margin-bottom: -5px;
 
 }
 .User_Card{
@@ -133,7 +135,18 @@ a{
 .Background{
 	background-image: url();
 }
-
+/*carousel width height*/
+/*.carousel .Carousel_User{
+  height: 550px;
+}
+*/
+/*.Carousel_img {
+    position: relative;
+    object-fit:fill;
+    top: 0;
+    left: 0;
+    height: 75vh;
+}*/
 
 
 
@@ -153,22 +166,20 @@ a{
 @media (min-width: 768px) and (max-width: 991.98px) {
 .banner_caption{
 	position: absolute;
-	top: 30%;
+	top: 25%;
 	left: 16%;
 	color: black;
 }
 #caption_carousel1{
-	font-size: 6vw;
-	color: #17a2b8;
+	font-size: 4.6vw;
+	
 }
 #caption_carousel2{
-	font-size: 3vw;
-	color: #17a2b8;
+	font-size: 2.4vw;
+	
 }
 #explore_button_banner1{
-	font-size: 1.3em;
-	border-radius: 40px;
-	padding: 10px 30px;
+	font-size: 1.7vw;
 }
 .Card_Caption{
 	position: absolute;
@@ -188,23 +199,23 @@ a{
 @media (min-width: 992px) and (max-width: 1199.98px) {
 .banner_caption{
 	position: absolute;
-	top: 30%;
+	top: 25%;
 	left: 16%;
 	color: black;
 }
 #caption_carousel1{
-	font-size: 7vw;
-	color: #17a2b8;
+	font-size: 5vw;
+	
 }
 #caption_carousel2{
-	font-size: 3vw;
-	color: #17a2b8;
+	font-size: 2.4vw;
+	
 }
-#explore_button_banner1{
+/*#explore_button_banner1{
 	font-size: 1.3em;
 	border-radius: 40px;
 	padding: 10px 30px;
-}
+}*/
 .Card_Caption{
 	position: absolute;
 	top: 40%;
@@ -217,12 +228,26 @@ a{
 .User_Logo_Head{
 	font-size: 4vw;
 }
+/*.Carousel_img {
+    position: relative;
+    object-fit:fill;
+    top: 0;
+    left: 0;
+    height: 70vh;
+}*/
 }
 /*extra small devices*/
 @media (max-width: 575.98px) {
 .User_Logo_Head{
 	font-size: 5vw;
 }
+/*.Carousel_img {
+    position: relative;
+    object-fit:fill;
+    top: 0;
+    left: 0;
+    height: 60vh;
+}*/
 }
 
 
