@@ -43,6 +43,15 @@ hr.divide{
     border-width: .1rem;
     border-color: #71a7ac;
 }
+.img_size{
+   
+   /* width: 520px;
+    height: 390px;*/
+
+    width: 1000px;
+    height: 500px;
+   
+}
 
 
 
@@ -56,7 +65,7 @@ hr.divide{
 
 
 
->>>>>>> dec11b418a20ce6b01bfa498dead9b13eb365ff0
+
 /* Slider */
 
 .slick-slide {
