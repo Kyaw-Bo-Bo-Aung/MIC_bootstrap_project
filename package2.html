@@ -2,41 +2,45 @@
 <html>
 <head>
 	<title>Travel and Tour Agency</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="text/css" href="images/newlogo.png">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/menustyle.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/custom.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-md navbar-light bg-primary">
-		<img src="" height="60" width="70" class="ml-5">
+	<!-- navigation bar -->
+	<nav class="navbar navbar-expand-md navbar-light" style="background-color: #b9b9b9; color: white;">
+		<img src="images/newlogo.png" height="60" width="70" class="ml-5 rounded circle">
 			<div id="Brand" class="mr-auto pl-3 mb-1">
-				<a href="" class="navbar-brand"><h2>Code-Eat-Repeat</h2></a>
+				<a href="index.html" class="navbar-brand text-white"><h2 id="navh1">Code-Eat-Repeat</h2></a>
 				<span id="brandtitle">Travel & Tour Agency</span>
-			</div>	
-		<div class="collapse navbar-collapse mr-5">
+			</div>
+			<button data-target="#navul" data-toggle="collapse" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>	
+		<div class="collapse navbar-collapse mr-5" id="navul">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a href="" class="nav-link">Home</a></li>
-				<li class="nav-item"><a href="" class="nav-link">Package</a></li>
+				<li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
+				<li class="nav-item"><a href="index.html#package" class="nav-link text-white">Package</a></li>
 				<li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			         Destination
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 			          <a class="dropdown-item" href="yangon.html">Yangon</a>
-			          <a class="dropdown-item" href="#">Mandalay</a>
-			          <a class="dropdown-item" href="#">Bagan</a>
-			          <a class="dropdown-item" href="#">Pyin-Oo-Lwin</a>
+			          <a class="dropdown-item" href="mandalay.html">Mandalay</a>
+			          <a class="dropdown-item" href="bagan.html">Bagan</a>
+			          <a class="dropdown-item" href="pyin_oo_lwin.html">Pyin-Oo-Lwin</a>
 			          <a class="dropdown-item" href="hpa-an.html">Hpa-an</a>
-			          <a class="dropdown-item" href="#">Taung-Gyi</a>
+			          <a class="dropdown-item" href="taunggyi.html">Taung-Gyi</a>
 			          <a class="dropdown-item" href="kalaw.html">Kalaw</a>
-			          <a class="dropdown-item" href="#">Inlay</a>
+			          <a class="dropdown-item" href="Inle.html">Inle</a>
 			          <a class="dropdown-item" href="ngapali.html">Ngapali</a>
 			          <a class="dropdown-item" href="ngwe-saung.html">Ngwe-Saung</a>				
 			        </div>
 		      </li>
-				<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-				<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				<li class="nav-item"><a href="about.html" class="nav-link text-white">About</a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -48,7 +52,13 @@
 			<div class="carousel-item active">
 				<img src="image/banner.jpg" class="img-fluid w-100">
 				<div class="carousel_text">
-					<h2 class="text-center San_font">Yangon Bagan Inle Lake</h2>
+
+					
+					
+
+					<h2 class="text-center San_font" style="text-shadow: 2px 2px 2px black;">Yangon Bagan Inle Lake</h2>
+					<h4 class="text-center San_font mt-3">( 4 Days/ 3 Nights Itinerary )</h4>
+
 					
 				</div>
 			</div>	
@@ -115,49 +125,70 @@
 
 <!-- Other  -->
 <h3 class="text-center my-5 San_font mb-5">Other Interestings </h3>
-	<div class="container">
+	<div class="container mb-5">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-4">
 
 				<div class="card">
-					<img src="image/22.jpg" class="card-img-top h-25">
+					<img src="image/1.jpg" class="card-img-top">
 					<div class="card-body">
-						<p> Ngapali, a beautiful stretch of sandy beach fringed by palm trees. The sea water is clean with gentle waves, perfect for spending some time in its warm water. A selection of beach front restaurants with seating on the beach under cover, offering seafood, some vegetarian dishes and a happy hour in time to watch the sun set.</p>
 
-						<button class="btn btn-info">Detail Info</button>
+						<button class="btn btn-block btn-info ">View Detail</button>
 					</div>
 				</div>
 				
 
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-4">
 
 				<div class="card">
-					<img src="image/kk.jpg" class="card-img-top">
+					<img src="image/18.jpg" class="card-img-top h-25">
 					<div class="card-body">
-						<p>Kyaing Tong, Most travellers visiting Burma would investigate the magnificence of its temples, pagodas and Buddhas. Most of these are places that would instantly pop up during Google searches. Burma has other places just as striking and grandiose. Such is the town of Kyaing Tong. </p>
 
-						<button class="btn btn-info ">Detail Info</button>
+						<button class="btn btn-block btn-info">View Detail</button>
 					</div>
 				</div>
 				
 
 			</div>
+			<div class="col-md-4">
+
+				<div class="card">
+					<img src="image/12.jpg" class="card-img-top">
+					<div class="card-body">
+
+						<button class="btn btn-block btn-info ">View Detail</button>
+					</div>
+				</div>
+				
+
+			</div>
+
+
+			
 		</div>
 	</div>
 <!-- end other -->
 
 
 
-	<!-- Footer -->
 
-	<footer>
-		<div class="row py-2 bg-dark mt-5">
-			<div class="col-md-7 col-12 text-white text-sm-center"><p class="float-md-left mx-4">Copyright 2020 &copy; Code-Eat-Repeat Travel&Tour Agency</p></div>
-			<div class="col-md-5 col-12 text-white text-sm-center"><p class="float-md-right mx-4">Created by <b>Code-Eat-Repeat Team</b></p></div>
+<!-- Footer -->
+
+	<div class="container-fluid footer">
+		<div class="row pt-3">
+			<div class="col-md-7 col-12">
+				<p class="float-md-left text-center">Copyright 2020 &copy; Code-Eat-Repeat Travel&Tour Agency</p>
+			</div>
+			<div class="col-md-5 col-12">
+				<p class="float-md-right text-center">Created by <b>Code-Eat-Repeat Team</b></p>
+			</div>
 		</div>
+	</div>
+
 		
-	</footer>
+	<!-- End Footer -->
+
 
 
 	<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
